@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Eureka</title>
+    <link rel="icon" href="LogoREUV.jpg" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+        <!-- Barra de progreso -->
+    <div class="scroll-progress"></div>
+    
+    <header>
+        <script src ="script.js"></script>
+        <a><img src="FondoREUV.jpg" width="100"></a>
+        <h1>Revista Eureka</h1>
+        <p>Explorando el conocimiento sin fronteras</p>
+    </header>
+    <nav>
+        <a href="#volumenes">Volúmenes</a>
+        <a href="info.html">Información</a>
+        <a href="equipo.html">Equipo</a>    
+    </nav>
+    <section id="volumenes">
+        <h2>Volúmenes</h2>
+        <div class="volume">
+            <h3>Volumen 1, Número 1</h3>
+            <p>Publicado en Enero 2025</p>
+            <button onclick="downloadPDF('volumen1-numero1.pdf')">Descargar PDF</button>
+        </div>
+        <div class="volume">
+            <h3>Volumen 1, Número 2</h3>
+            <p>Publicado en Abril 2025</p>
+            <button onclick="downloadPDF('volumen1-numero2.pdf')">Descargar PDF</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Revista Eureka - Todos los derechos reservados</p>
+        <p>Siguenos en: 
+            <a href="https://www.facebook.com/profile.php?id=61565697545402">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="https://www.instagram.com/revistaeurekauv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
